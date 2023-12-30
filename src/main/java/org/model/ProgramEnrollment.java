@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
+@Table(name = "ProgramEnrollment")
 public class ProgramEnrollment {
 
     @Id

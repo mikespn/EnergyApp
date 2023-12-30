@@ -1,9 +1,12 @@
 package org.repository;
 
+import org.dto.ProgramResponseDTO;
 import org.model.Consumer;
 import org.model.Program;
 import org.model.ProgramEnrollment;
 import org.model.Provider;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -43,4 +46,7 @@ public interface ProviderRepository extends JpaRepository<Provider, Long> {
 
     @Query("SELECT pe.consumer FROM ProgramEnrollment pe WHERE pe.program.provider.id = :providerId")
     List<Consumer> findConsumersByProviderId(Long providerId);
+
+    Page<Provider> findByUsernameContainingIgnoreCase(String username, Pageable pageable);
+
 }

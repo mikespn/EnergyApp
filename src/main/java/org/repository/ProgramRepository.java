@@ -40,12 +40,12 @@ public interface ProgramRepository extends JpaRepository <Program, Long> {
 
     void deleteAll();
 
-    List<Program> findByCategoryId(Long categoryId);
+    List<Program> findProgramsByCategoryId(Long categoryId);
 
-    List<Program> findByProviderID(Long providerId);
+    List<Program> findProgramsByProviderID(Long providerId);
 
     //Find and sort programs within a category by day rate
-    List<Program> findByCategoryId(Long categoryId, Sort sort);
+    List<Program> findProgramsByCategoryId(Long categoryId, Sort sort);
 
     //Find a program by its name
     List<Program> findByName(String name);

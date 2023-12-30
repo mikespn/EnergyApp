@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6994013-ede6-4974-9794-d591078f79a6" name="Changes" comment="Energy App model.">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/config/AppConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/model/ProgramEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/ProgramEnrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProgramEnrollmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/ProgramEnrollmentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProgramRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/ProgramRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/ProviderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/service/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/service/ProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/util/ConverterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/util/ConverterUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,10 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.exceptions.consumerExceptions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.exceptions.categoryExceptions" />
+      <recent name="org.exceptions.providerExceptions" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

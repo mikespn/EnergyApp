@@ -1,5 +1,6 @@
 package org.repository;
 
+import org.model.Program;
 import org.model.ProgramEnrollment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -21,4 +22,5 @@ public interface ProgramEnrollmentRepository extends JpaRepository<ProgramEnroll
 
     List<ProgramEnrollment> findByEnrollmentDateBetween(LocalDate startDate, LocalDate endDate);
     List<ProgramEnrollment> findByCounterId(Long counterId);
+    List<ProgramEnrollment> findByProgramIn(List<Program> programs);
 }
