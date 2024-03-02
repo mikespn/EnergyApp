@@ -5,14 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6994013-ede6-4974-9794-d591078f79a6" name="Changes" comment="Energy App model.">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/EnergyAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/controller/TestApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/TestGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/TestUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/TestUserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/ProgramEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/model/ProgramEnrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProgramEnrollmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/ProgramEnrollmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProgramRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/ProgramRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/repository/ProviderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/service/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/service/ProviderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/util/ConverterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/util/ConverterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/CategoryRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/CategoryRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/CategoryResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/CategoryResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ConsumerMappingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ConsumerMappingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ConsumerRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ConsumerRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ConsumerResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ConsumerResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/CounterRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/CounterRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/CounterResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/CounterResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ProgramEnrollmentRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ProgramEnrollmentRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ProgramEnrollmentResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ProgramEnrollmentResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ProgramRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ProgramRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ProgramResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ProgramResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ProviderRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ProviderRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dto/ProviderResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/dto/ProviderResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/BadRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/BadRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/ConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/ConflictException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/ConvertException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/ConvertException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/DataFetchingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/DataFetchingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/UnauthorizedAccessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/UnauthorizedAccessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/categoryExceptions/CategoryNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/categoryExceptions/CategoryNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/consumerExceptions/ConsumerCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/consumerExceptions/ConsumerCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/consumerExceptions/ConsumerDeletionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/consumerExceptions/ConsumerDeletionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/consumerExceptions/ConsumerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/consumerExceptions/ConsumerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/consumerExceptions/ConsumerServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/consumerExceptions/ConsumerServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/consumerExceptions/ConsumerUpdateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/consumerExceptions/ConsumerUpdateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/counterExceptions/CounterNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/counterExceptions/CounterNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/programEnrollmentException/ProgramEnrollmentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/programEnrollmentException/ProgramEnrollmentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/programExceptions/ProgramNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/programExceptions/ProgramNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/providerExceptions/ProviderCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/providerExceptions/ProviderCreationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/providerExceptions/ProviderDeletionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/providerExceptions/ProviderDeletionException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/providerExceptions/ProviderMappingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/providerExceptions/ProviderMappingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/providerExceptions/ProviderNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/providerExceptions/ProviderNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/exceptions/providerExceptions/ProviderUpdateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/exceptions/providerExceptions/ProviderUpdateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/ProgramEnrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/ProgramEnrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/Provider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ConsumerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/ConsumerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/CounterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/CounterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProgramEnrollmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/ProgramEnrollmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProgramRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/ProgramRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/repository/ProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/repository/ProviderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/service/ProgramEnrollmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/service/ProgramEnrollmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/service/ProgramService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/service/ProgramService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/service/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/service/ProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/util/ConverterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/util/ConverterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/util/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/util/ServiceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/energyapp/util/ServiceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/config/AppConfig$Converters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/CategoryRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/CategoryResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ConsumerMappingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ConsumerRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ConsumerResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/CounterRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/CounterResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ProgramEnrollmentRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ProgramEnrollmentResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ProgramRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ProgramResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ProviderRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/dto/ProviderResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/BadRequestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/ConflictException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/ConvertException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/DataFetchingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/UnauthorizedAccessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/categoryExceptions/CategoryNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/consumerExceptions/ConsumerCreationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/consumerExceptions/ConsumerDeletionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/consumerExceptions/ConsumerNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/consumerExceptions/ConsumerServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/consumerExceptions/ConsumerUpdateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/counterExceptions/CounterNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/programEnrollmentException/ProgramEnrollmentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/programExceptions/ProgramNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/providerExceptions/ProviderCreationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/providerExceptions/ProviderDeletionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/providerExceptions/ProviderMappingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/providerExceptions/ProviderNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/exceptions/providerExceptions/ProviderUpdateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/ProgramEnrollment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/Provider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/repository/ConsumerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/repository/CounterRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/repository/ProgramEnrollmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/repository/ProgramRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/repository/ProviderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/service/ConsumerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/service/ProgramEnrollmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/service/ProgramService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/service/ProviderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/util/PasswordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/util/ServiceUtil.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,29 +163,42 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2YDw7ZJyCzOJY1sUL3yU2aSR4HO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/MobileContactsApp&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/arisp/IdeaProjects/EnergyApp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
@@ -84,6 +211,40 @@
       <recent name="org.exceptions.providerExceptions" />
     </key>
   </component>
+  <component name="RunManager" selected="Spring Boot.EnergyAppApplication (1)">
+    <configuration name="EnergyAppApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="EnergyApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.energyapp.EnergyAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.energyapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnergyAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="EnergyApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.EnergyAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EnergyAppApplication (1)" />
+        <item itemvalue="Spring Boot.EnergyAppApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,6 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700073295052</updated>
+      <workItem from="1709397298467" duration="2579000" />
     </task>
     <task id="LOCAL-00001" summary="Energy App model.">
       <created>1700689703968</created>
@@ -109,6 +271,9 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,7 +298,6 @@
         <entry key="ddb44018-8024-4679-aa26-c881c31fbb81">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -152,6 +316,7 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
